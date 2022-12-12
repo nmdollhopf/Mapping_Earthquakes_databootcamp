@@ -25,7 +25,13 @@ Folder/
 
 ## Earthquakes Challenge  
 
-The Earthquake_Challenge/ folder follows the same structure (see above) as the other folders. All data is pulled live, however, and there is no .json file in the /js/ sub-folder. Be sure to add a config.js file with a Mapbox API key in the /js/ folder before attempting to load index.html.
+The Earthquake_Challenge/ folder follows the same structure (see above) as the other folders with minor changes, 
+* logic.js has been replaced with challenge_logic.js in the /js/ sub-folder
+* All data is pulled live and there is no .json file in the /js/ sub-folder.  
+
+Be sure to add a config.js file with a Mapbox API key in the /js/ folder before attempting to load index.html.  
+<br>
+
 
 The challenge consisted of creating a page to show recent (last 7 days) earthquakes on a global map using JavaScript with the [Leaflet](https://leafletjs.com/reference.html) and [Mapbox](https://docs.mapbox.com/) APIs.   
 
